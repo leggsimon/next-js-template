@@ -1,0 +1,17 @@
+{
+	"name": "next-js-template",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"export": "next build && next export -o dist"
+	},
+	"dependencies": {
+		"next": "^9.0.2",
+		"react": "^16.8.4",
+		"react-dom": "^16.8.4"
+	},
+	"devDependencies": {
+		"@zeit/next-css": "^1.0.1"
+	}
+}
